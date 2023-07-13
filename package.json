@@ -51,6 +51,8 @@
         "webpack": "^5.88.0"
     },
     "dependencies": {
+        "@ckeditor/ckeditor5-export-pdf": "^38.1.1",
+        "@ckeditor/ckeditor5-export-word": "^38.1.1",
         "lodash": "^4.17.21",
         "postcss-scss": "^4.0.6",
         "regex-parser": "^2.2.11",

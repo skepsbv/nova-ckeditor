@@ -58,6 +58,9 @@ import SnippetBrowser from './plugins/SnippetBrowser'
 // Video
 import Video from "./plugins/video/video"
 
+// Export
+import { ExportPdf } from '@ckeditor/ckeditor5-export-pdf';
+
 
 // Other
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting'
@@ -124,7 +127,8 @@ export default class CkEditor extends ClassicEditorBase {
             SourceEditing,
             Indent,
             IndentBlock,
-            ElementAddAttributes
+            ElementAddAttributes,
+            ExportPdf,
         ]
     }
 }

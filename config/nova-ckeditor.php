@@ -127,6 +127,8 @@ return [
             ],
 
             'items' => [
+                'exportPdf',
+                'exportWord',
                 'textPartLanguage',
                 'heading',
                 '|',
