@@ -60,6 +60,7 @@ import Video from "./plugins/video/video"
 
 // Export
 import { ExportPdf } from '@ckeditor/ckeditor5-export-pdf';
+import { ExportWord } from '@ckeditor/ckeditor5-export-word';
 
 
 // Other
@@ -129,6 +130,7 @@ export default class CkEditor extends ClassicEditorBase {
             IndentBlock,
             ElementAddAttributes,
             ExportPdf,
+            ExportWord
         ]
     }
 }
